@@ -11,9 +11,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Message msg="Greetings Earthling. I am Borg!" createdAt={new Date().toUTCString()} />
-        <Person fullName="Philippe" />
-        <Person fullName="Lester" />
-        <Person fullName="Linus" />
+        <Person fullName="Philippe" age={37} length={1.72} weight={66} />
+        <Person fullName="Lester" age={5} length={1.08} weight={16.8}  />
+        <Person fullName="Linus" age={37} length={1.27} weight={23}  />
         <a
           className="App-link"
           href="https://reactjs.org"
